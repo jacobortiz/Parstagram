@@ -11,7 +11,6 @@
 		44589593080B8F47E7E3D04E /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FD60FAD8D774F9FB9FDE3CF /* Pods_Parstagram_ParstagramUITests.framework */; };
 		FD2A5F83253BF76300BB4DAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A5F82253BF76300BB4DAF /* AppDelegate.swift */; };
 		FD2A5F85253BF76300BB4DAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A5F84253BF76300BB4DAF /* SceneDelegate.swift */; };
-		FD2A5F87253BF76300BB4DAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A5F86253BF76300BB4DAF /* ViewController.swift */; };
 		FD2A5F8A253BF76300BB4DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2A5F88253BF76300BB4DAF /* Main.storyboard */; };
 		FD2A5F8C253BF76400BB4DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2A5F8B253BF76400BB4DAF /* Assets.xcassets */; };
 		FD2A5F8F253BF76400BB4DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2A5F8D253BF76400BB4DAF /* LaunchScreen.storyboard */; };
@@ -19,6 +18,10 @@
 		FD2A5FA5253BF76400BB4DAF /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2A5FA4253BF76400BB4DAF /* ParstagramUITests.swift */; };
 		FD37E0FE253C00A800E3CCA6 /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21CAA0EF49DB9A486B1ECD08 /* Pods_Parstagram.framework */; };
 		FD37E0FF253C00A800E3CCA6 /* Pods_Parstagram.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 21CAA0EF49DB9A486B1ECD08 /* Pods_Parstagram.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FD37E102253C06C100E3CCA6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD37E101253C06C100E3CCA6 /* LoginViewController.swift */; };
+		FD37E104253C06D300E3CCA6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD37E103253C06D300E3CCA6 /* FeedViewController.swift */; };
+		FD37E106253C138100E3CCA6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD37E105253C138100E3CCA6 /* CameraViewController.swift */; };
+		FD37E108253C1DBF00E3CCA6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD37E107253C1DBF00E3CCA6 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +68,6 @@
 		FD2A5F7F253BF76300BB4DAF /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2A5F82253BF76300BB4DAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD2A5F84253BF76300BB4DAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FD2A5F86253BF76300BB4DAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD2A5F89253BF76300BB4DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD2A5F8B253BF76400BB4DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD2A5F8E253BF76400BB4DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +78,10 @@
 		FD2A5FA0253BF76400BB4DAF /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD2A5FA4253BF76400BB4DAF /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		FD2A5FA6253BF76400BB4DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD37E101253C06C100E3CCA6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FD37E103253C06D300E3CCA6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		FD37E105253C138100E3CCA6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		FD37E107253C1DBF00E3CCA6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,11 +162,14 @@
 			children = (
 				FD2A5F82253BF76300BB4DAF /* AppDelegate.swift */,
 				FD2A5F84253BF76300BB4DAF /* SceneDelegate.swift */,
-				FD2A5F86253BF76300BB4DAF /* ViewController.swift */,
 				FD2A5F88253BF76300BB4DAF /* Main.storyboard */,
 				FD2A5F8B253BF76400BB4DAF /* Assets.xcassets */,
 				FD2A5F8D253BF76400BB4DAF /* LaunchScreen.storyboard */,
 				FD2A5F90253BF76400BB4DAF /* Info.plist */,
+				FD37E101253C06C100E3CCA6 /* LoginViewController.swift */,
+				FD37E103253C06D300E3CCA6 /* FeedViewController.swift */,
+				FD37E105253C138100E3CCA6 /* CameraViewController.swift */,
+				FD37E107253C1DBF00E3CCA6 /* PostCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -423,9 +432,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD2A5F87253BF76300BB4DAF /* ViewController.swift in Sources */,
+				FD37E102253C06C100E3CCA6 /* LoginViewController.swift in Sources */,
+				FD37E106253C138100E3CCA6 /* CameraViewController.swift in Sources */,
 				FD2A5F83253BF76300BB4DAF /* AppDelegate.swift in Sources */,
+				FD37E104253C06D300E3CCA6 /* FeedViewController.swift in Sources */,
 				FD2A5F85253BF76300BB4DAF /* SceneDelegate.swift in Sources */,
+				FD37E108253C1DBF00E3CCA6 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
