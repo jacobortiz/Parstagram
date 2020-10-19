@@ -60,11 +60,35 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     @IBAction func onLogOut(_ sender: Any) {
+        
+        print("logging out..")
         PFUser.logOut()
+    
+        
         let main = UIStoryboard(name: "Main", bundle: nil)
         let login_view_controller = main.instantiateViewController(withIdentifier: "LoginViewController")
-        let delegate = UIApplication.shared.delegate as! AppDelegate
-        delegate.window?.rootViewController = login_view_controller
+        let scene_delegate = self.view.window?.windowScene?.delegate as! SceneDelegate
+        scene_delegate.window?.rootViewController = login_view_controller
+        
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let post = posts[indexPath.row]
+        
+        let comment = PFObject(className: "Comments")
+        comment["text"] = "This is a random comment!"
+        comment["post"] = post
+        comment["author"] = PFUser.current()!
+        
+        post.add(comment, forKey: "comments")
+        
+        post.saveInBackground { (success, error) in
+            if success {
+                print("comment saved")
+            } else {
+                print("error saving comment")
+            }
+        }
     }
     
     /*

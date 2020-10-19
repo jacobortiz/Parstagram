@@ -23,12 +23,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         Parse.initialize(with: parseConfig)
         
-        if PFUser.current() != nil {
-            let main = UIStoryboard(name: "Main", bundle: nil)
-            let fnc = main.instantiateViewController(withIdentifier: "FNC")
-            window?.rootViewController = fnc
-            
-        }
         
         return true
     }
